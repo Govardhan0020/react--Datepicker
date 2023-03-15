@@ -42,7 +42,7 @@ export default function Datapicker() {
           />
         </div>
         <div>
-          <input type="submit" />
+        <input type="submit" disabled={(!startData.length > 0 && !endData.length > 0 ) ? true : false } />
         </div>
       </form>
 
